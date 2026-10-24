@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Contact Registration</h1>
+    <p class="subtitle">
+        Please enter your details below.
+    </p>
+
+    <form id="contactForm">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="address">Address</label>
+    <textarea id="address" name="address" required></textarea>
+
+    <label for="mobile">Mobile Number</label>
+    <input type="tel" id="mobile" name="mobile" required>
+
+    <button type="submit">Submit Details</button>
+
+    <p id="message" role="status" aria-live="polite"></p>
+</form>
+
+<script src="script.js" defer></script>
+
+    <p id="message" role="status" aria-live="polite"></p>
+</main>
+```
+
+</body>
+</html>
